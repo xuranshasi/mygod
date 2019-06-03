@@ -141,5 +141,19 @@ html标签
 
 	<!-- <strong></strong> 字体加粗 -->
 	<strong>我很强壮！！！</strong>
+	
+	
+	<!-- 相对路径 没有盘符 -->
+	<!-- 绝对路径 带盘符 -->
+	<!-- alt 图片不显示的时候显示的提示 -->
+	<img src="1.jpg" alt="我看不见">
+	<br />
+	<!-- title  鼠标放置于图片上的显示文字 -->
+	<!-- 右键点击图片地址，放入ｓｒｃ -->
+	<img src="C:\Users\EDZ\Desktop\2.jpg" title="漂亮的小姐姐" height="500" width="500">
+
+	<!-- <a href=""></a> href 输入跳转地址   target 默认页面内跳转  _blank 新开一个页面跳转 -->
+	<a href="https://www.taobao.com/" target="_blank">跳转马云钱包</a>
+	<a href="..\2.jpg" target="_self">我的小姐姐</a>
 </body>
 </html>
