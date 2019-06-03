@@ -104,3 +104,42 @@ cookies
 状态码
 时间
 服务器的软件版本
+
+html标签
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我很胖</title>
+</head>
+<body>
+	<!-- 单标签  双标签 -->
+	<!-- 默认水平 <hr /> -->
+	<!-- 注释：1、给自己看 2、给别人看 -->
+	<!-- 添加注释 ctrl + / -->
+
+	<hr />
+	呵呵哒！！！！
+	<!-- <br /> 换行 -->
+
+	呵呵！！！！
+	么么哒！！！！
+	<h6>你很丑</h6>
+	<!-- <hn></hn>  标题字体从大到小 -->
+	<h1>我很handsome</h1>
+	<h2>我很穷！！！</h2>
+	<h3>我头发不多</h3>
+	<h4>我很胖</h4>
+	<h5>我很handsome</h5>
+	<h6>我很handsome</h6>
+	<h7>你很笨</h7>
+	<br />
+	<!-- <font></font> 字体大小颜色 -->
+	<font color="pink" size="19">少女心！！！</font>
+	<br />
+	<font color="green" size="1">少女心！！！</font>
+	<br />
+
+	<!-- <strong></strong> 字体加粗 -->
+	<strong>我很强壮！！！</strong>
+</body>
+</html>
