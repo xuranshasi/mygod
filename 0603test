@@ -318,3 +318,15 @@ html标签
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<a href="https:\\www.taobao.com">
+		<img src="C:\Users\EDZ\Desktop\2.jpg">
+	</a>
+</body>
+</html>
