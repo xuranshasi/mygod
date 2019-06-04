@@ -73,3 +73,54 @@
 	</table>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单</title>
+</head>
+<body>
+	<!-- action  你要把表单提交到哪里（一般来说是提交到公司的后台服务器） -->
+	<!-- method 表单的提交方式 get post -->
+<!-- 	get
+	1、数据会显示URL地址栏上
+	2、安全性地
+	3、速度快
+	4、数据长度有限制
+
+	post
+	1、数据不显示在URL地址栏上
+	2、安全性较高
+	3、速度较快
+	4、数据长度理论上没有限制
+
+	form是前端最后一战，是后端的第一站 -->
+	
+<!-- 	input 表单控件
+	type  表单控件的类型
+	name  控件的名字
+	value 控件的内容
+	id  js需要使用的东西
+ -->
+	<form action="register.action" method="post">
+		用户：<input type="text" name="用户" value="用户" id="1">
+		密码：<input type="password" name="密码">
+		<br />
+		性别：
+		<!-- radio 单选按钮 -->
+		男：<input type="radio" name="sex">
+		女：<input type="radio" name="sex">
+		萨瓦迪卡：<input type="radio" name="sex">
+		<br />
+		<!-- checkbox 复选框 -->
+		爱好：
+		骑行：<input type="checkbox" name="hobby" value="0">
+		NBA：<input type="checkbox" name="hobby" value="1">
+		萨瓦迪卡：<input type="checkbox" name="hobby" value="2">
+		kongnijiwa:<input type="checkbox" name="hobby" value="3">
+		<br />
+		提交：<input type="submit" name="提交" value="提交">
+	</form>
+</body>
+</html>
