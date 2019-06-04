@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>无序列表</title>
+</head>
+<body>
+	<ul type="circle">
+		<li>第一头猪</li>
+		<li>第二头驴</li>
+		<li>第三头大象</li>
+	</ul>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>有序列表</title>
+</head>
+<body>
+	<ol type="i" start="3">
+		<li value="7">第一只鸭子</li>
+		<li>第N只小鸡</li>
+		<li>第二只天鹅</li>
+	</ol>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>自定义列表</title>
+</head>
+<body>
+	<dl>
+		<dt>刘亦菲</dt>
+		<dd>凤姐</dd>
+
+		<dt>蔡徐坤</dt>
+		<dd>NBA</dd>
+	</dl>
+</body>
+</html>
