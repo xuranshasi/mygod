@@ -19,6 +19,7 @@
 	<title>有序列表</title>
 </head>
 <body>
+	<!-- i阿拉伯数字 1数字 a字母 -->
 	<ol type="i" start="3">
 		<li value="7">第一只鸭子</li>
 		<li>第N只小鸡</li>
