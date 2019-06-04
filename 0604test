@@ -4,6 +4,7 @@
 	<title>无序列表</title>
 </head>
 <body>
+	<!-- type 默认实心圆 circle空心圆 disc方块 -->
 	<ul type="circle">
 		<li>第一头猪</li>
 		<li>第二头驴</li>
