@@ -124,3 +124,61 @@
 	</form>
 </body>
 </html>
+
+常规写法
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单提交</title>
+</head>
+<body>
+	<form action="表格.html" method="get">
+		<!-- div 格式化  引入CSS模板 -->
+		<div>
+			用户：<input type="text" name="inputname">
+			密码：<input type="password" name="passwd">
+		</div>
+
+		<div>
+			图像提交：<input type="image" name="凤姐" src="5.jpg" alt="submit">
+		</div>
+		<div>
+			<textarea cols="8" rows="20">
+					金佛的售价佛得角斯奥负极斗篷撒娇覅哦怕祭祀阿凡达撒娇覅都是怕，法轮大法好，台湾是中国，我们中国很强大，钓鱼岛也是我们的，米国也是完蛋的
+			</textarea>
+		</div>
+		<div>
+			提交：<input type="submit" name="提交">
+		</div>
+	</form>
+</body>
+</html>
+
+
+select
+<!DOCTYPE html>
+<html>
+<head>
+	<title>select</title>
+</head>
+<body>
+	<form>
+		<div>
+			<!-- select 是下拉框选项
+			其中用option 表示下拉选项 -->
+			中国的省份：
+			<select name="中国的省份" id="sheng" size="3" multiple="multiple">
+				<option>日本</option>
+				<option>米国</option>
+				<option>菲律宾</option>
+				<option selected="selected">俄罗斯</option>
+			</select>
+		</div>
+		<div>
+			<fieldset>试一试
+				<input type="text" name="喜欢干的事情">
+			</fieldset>
+		</div>
+	</form>
+</body>
+</html>
