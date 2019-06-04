@@ -43,3 +43,26 @@
 	</dl>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格</title>
+</head>
+<body>
+	<!-- border边框尺寸 borderbolor 颜色 -->
+	<table border="1" bordercolor="red" cellpadding="30" cellspacing="50" width="500" height="800" align="center" bgcolor="pink">
+		<tr>
+			<td>课程名称</td>
+			<td>上课时间</td>
+			<td>课程内容</td>
+		</tr>
+		<tr>
+			<td>认识小姐姐</td>
+			<td>28：00</td>
+			<td>骗你的</td>
+		</tr>
+	</table>
+</body>
+</html>
