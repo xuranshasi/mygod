@@ -59,6 +59,7 @@
 		<!-- 表格的标题 caption放在table下方，tr上面 -->
 		<caption>课程表</caption>
 		<tr>
+			<!-- 表头加粗居中 th -->
 			<th>课程名称</th>
 			<!-- rowspan 合并列 colspan合并行 -->
 			<td colspan="2">上课时间</td>
