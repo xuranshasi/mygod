@@ -52,6 +52,7 @@
 </head>
 <body>
 	<!-- border边框尺寸 borderbolor 颜色 -->
+	<!-- cellpadding 字体与单元格间距  cellspacing单元格间距 width宽度 height高度 align表格位置 bgcolor表格底色 -->
 	<table border="1" bordercolor="red" cellpadding="30" cellspacing="50" width="500" height="800" align="center" bgcolor="pink">
 		<tr>
 			<td>课程名称</td>
