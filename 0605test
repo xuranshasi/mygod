@@ -506,3 +506,108 @@ CSS 标签选择器
 	</div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css的相关属性</title>
+	<style type="text/css">
+	/*定义字体 关键字 font 有顺序 先是大小 再是字体*/
+		.fontstyle {
+			font:30px 黑体;
+		}
+	</style>
+</head>
+<body>
+	<div class="fontstyle">
+		我是宋体
+	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>复合选择器</title>
+	<!-- 复合选择器 标签名.类名 同时满足标签名和类名才能生效 -->
+	<style type="text/css">
+		div.handsome{
+			color: red;
+		}
+		div#some{
+			font-size: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		黑哥没有熊哥帅
+	</div>
+	<div class="handsome">
+		黑哥比熊哥高
+	</div>
+	<span class="handsome">
+		黑哥很黑
+	</span>
+	<div id="some">
+		这是id选择器
+	</div>
+	<p id="some">
+		这是p选择器
+	</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后代选择器</title>
+	<!-- 后代选择器 第一个选择器名字嵌套内往下找直到找到第二个选择器的名字然后进行css装饰 -->
+	<style type="text/css">
+		ul div{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		我是ul外的div
+	</div>
+	<ul class="father">
+		<li>
+			我是li
+			<div>
+				我是里面的div
+			</div>
+		</li>
+		<div>
+			我是li外面的div
+		</div>
+	</ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>并集选择器</title>
+	<!-- 并集选择器 针对不同标签选择器、类选择器、id选择器、复合选择器使用同一css样式可以使用，以逗号间隔  -->
+	<style type="text/css">
+		.test,a#autotest,span {
+			font-size: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="test">
+		我很熟悉软件测试
+	</div>
+	<a id="autotest">
+		我会自动化测试
+	</a>
+	<span>
+		我会上网
+	</span>
+</body>
+</html>
