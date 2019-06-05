@@ -124,3 +124,65 @@ CSS 标签选择器
 	</span>
 </body>
 </html>
+
+
+类选择器
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- 一对多 一个标签选择器可以对应多个标签 -->
+	<!-- 类选择器 .类名的格式进行对应 标签需要定义class -->
+	<title>忆江南</title>
+	<style type="text/css">
+/*		div {
+			color: red;
+			text-align: right;
+		}
+		span {
+			color:blue;
+		}
+		*/
+		.div1 {
+			color: red;
+		}
+		.div2 {
+			color:pink;
+		}
+
+		/*多个类的选择器*/
+		.div3 {
+			font-size: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- &nbsp; 空格 -->
+	<div class="div1">
+		唐&nbsp;白居易
+	</div>
+	<div class="div2">
+		fdsajfiodsajfiodsajifodsapofsda
+	</div>
+
+	<div class="div2 div3">
+		作者介绍
+	</div>
+	<div>
+		hfdusiajfjosdajfiodsjaifodsjaiofjdsioafj
+	</div>
+	<div>
+		注释
+	</div>
+	<div>
+		jfiodsajfiodsjafiodsjaifods
+	</div>
+	<div>
+		品评
+	</div>
+	<div>
+		fjdisojiojfidosajfioasjio
+	</div>
+</body>
+</html>
