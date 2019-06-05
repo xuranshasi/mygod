@@ -31,3 +31,47 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css</title>
+	<style type="text/css">
+	/*标签选择器 div p ul ol h */
+	/*css定义大小要加上px*/
+		p {
+			color: pink;
+		}
+		span {
+			color: yellow;
+		}
+		h1 {
+			color: red;
+		}
+		div {
+			background: pink;
+			font-size: 1000px;
+			width: 500px;
+			height: 600px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		雄哥handsome!!!!
+	</div>
+	<p>
+		凤姐是楼上女朋友
+	</p>
+	<span>
+		呵呵 ！！！
+	</span>
+	<h1>
+		俄罗斯人吹狗熊
+	</h1>
+	<a href="https:\\www.sina.com">呵呵呵呵呵呵呵呵</a>
+
+
+</body>
+</html>
