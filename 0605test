@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>复习</title>
+</head>
+<body>
+	<!-- ul 无序列表 并列没有顺序 -->
+	<!-- ol 有序列表 有顺序 类型：数字1、字母a、罗马数字I -->
+	<!-- dl 自定义列表 dd dt -->
+
+<!-- 	table 表格 
+	表格的属性
+	border 边框粗细 
+	bordercolor 边框颜色
+	rowspan colspan 合并单元格
+	cellpadding 单元格和文字间距
+	cellspacing 单元格间距
+	width  height  宽度和高度
+	thead  tbody tfoot 开头 中间 结尾
+	tr 行 td 单元格
+	th 表头居中加粗
+	bgcolor 表格底层
+	align center 居中
+	caption 表格标题  一定要放在table标签下-->
+	
+<!-- 	form 表单
+	method 请求的方式 get/post
+	input 控件 type 类型 name 名字 value js区分
+	textarea 多行文本框控件 cols  rows 定义宽度 高度
+	select 控件 multiple="multiple" opation 定义选项 -->
+
+</body>
+</html>
