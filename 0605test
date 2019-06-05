@@ -235,6 +235,245 @@ CSS 标签选择器
 	</div>
 	<div class="haicao">
 		海草
+	</div><!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head><!DOCTYPE html>
+<html>
+<head>
+	<title>练习1</title>
+	<!-- text-align 文字位置 center居中 right居右 left居左 -->
+	<style type="text/css">
+		.niubi {
+			background: orange;
+			height: 100px;
+		}
+		.zhenniubi {
+			background: pink;
+			font-size: 50px;
+			height: 100px;
+			text-align: right;
+		}
+		.color {
+			background: blue;
+			height: 100px;
+			text-align: center;
+		}
+		.tebiexiao{
+			font-size: 10px;
+		}
+		.haicao{
+			background: green;
+			font-size: 50px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="niubi">
+		&nbsp;
 	</div>
+	<div class="zhenniubi">
+		真&nbsp;&nbsp;&nbsp;&nbsp;牛&nbsp;&nbsp;&nbsp;&nbsp;逼<!DOCTYPE html>
+<html>
+<head>
+	<title>练习1</title>
+	<!-- text-align 文字位置 center居中 right居右 left居左 -->
+	<style type="text/css">
+		.niubi {
+			background: orange;
+			height: 100px;
+		}
+		.zhenniubi {
+			background: pink;
+			font-size: 50px;
+			height: 100px;
+			text-align: right;
+		}
+		.color {
+			background: blue;
+			height: 100px;
+			text-align: center;
+		}
+		.tebiexiao{
+			font-size: 10px;
+		}
+		.haicao{
+			background: green;
+			font-size: 50px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="niubi">
+		&nbsp;
+	</div>
+	<div class="zhenniubi">
+		真&nbsp;&nbsp;&nbsp;&nbsp;牛&nbsp;&nbsp;&nbsp;&nbsp;逼<!DOCTYPE html>
+<html>
+<head>
+	<title>练习1</title>
+	<!-- text-align 文字位置 center居中 right居右 left居左 -->
+	<style type="text/css">
+		.niubi {
+			background: orange;
+			height: 100px;
+		}
+		.zhenniubi {
+			background: pink;
+			font-size: 50px;
+			height: 100px;
+			text-align: right;
+		}
+		.color {
+			background: blue;
+			height: 100px;
+			text-align: center;
+		}
+		.tebiexiao{
+			font-size: 10px;
+		}
+		.haicao{
+			background: green;
+			font-size: 50px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="niubi">
+		&nbsp;
+	</div>
+	<div class="zhenniubi">
+		真&nbsp;&nbsp;&nbsp;&nbsp;牛&nbsp;&nbsp;&nbsp;&nbsp;逼
+	</div>
+	<div class="color">
+		<!-- span 合并成一行展示 -->
+		<span>
+			<span class="tebiexiao">凤姐</span>
+			牛&nbsp;&nbsp;&nbsp;&nbsp;姐
+		</span>
+	</div>
+	<div class="haicao">
+		海草
+	</div>
+	<a href="http:\\www.sina.com" target="_blank">跳转新浪</a>
+</body>
+</html>
+	</div>
+	<div class="color">
+		<!-- span 合并成一行展示 -->
+		<span>
+			<span class="tebiexiao">凤姐</span>
+			牛&nbsp;&nbsp;&nbsp;&nbsp;姐
+		</span>
+	</div>
+	<div class="haicao">
+		海草
+	</div>
+	<a href="http:\\www.sina.com" target="_blank">跳转新浪</a>
+</body>
+</html>
+	</div>
+	<div class="color">
+		<!-- span 合并成一行展示 -->
+		<span>
+			<span class="tebiexiao">凤姐</span>
+			牛&nbsp;&nbsp;&nbsp;&nbsp;姐
+		</span>
+	</div>
+	<div class="haicao">
+		海草
+	</div>
+	<a href="http:\\www.sina.com" target="_blank">跳转新浪</a>
+</body>
+</html>
+<body>
+	<table border="1">
+	</table>
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table border="1">
+	</table>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>练习1</title>
+	<!-- text-align 文字位置 center居中 right居右 left居左 -->
+	<style type="text/css">
+
+		/*类选择器命名 不能以数字开头，可以有特殊符号_ 和-,例如：body_fei */
+		.niubi {
+			background: orange;
+			height: 100px;
+		}
+		.zhenniubi {
+			background: pink;
+			font-size: 50px;
+			height: 100px;
+			text-align: right;
+		}
+		.color {
+			background: blue;
+			height: 100px;
+			text-align: center;
+		}
+		.tebiexiao{
+			font-size: 50px;
+			text-align: right;
+			color: red;
+
+		}
+		.haicao{
+			background: green;
+			font-size: 50px;
+			height: 100px;
+		}
+		.tebiexiao1 {
+			color: white;
+			font-size:50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="niubi">
+		&nbsp;
+	</div>
+	<div class="zhenniubi">
+		真&nbsp;&nbsp;&nbsp;&nbsp;牛&nbsp;&nbsp;&nbsp;&nbsp;逼
+	</div>
+	<div class="color">
+		<!-- span 合并成一行展示 -->
+		<span>
+			<span class="tebiexiao">
+				凤姐
+			</span>
+			牛&nbsp;&nbsp;&nbsp;&nbsp;姐
+		</span>
+	</div>
+	<div class="color">
+		<!-- span 合并成一行展示 -->
+		<span>
+			<span class="tebiexiao1">
+				呵呵
+			</span>
+			牛&nbsp;&nbsp;&nbsp;&nbsp;头
+		</span>
+	</div>
+	<a href="http:\\www.sina.com" target="_blank">跳转新浪</a>
 </body>
 </html>
