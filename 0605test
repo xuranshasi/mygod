@@ -477,3 +477,32 @@ CSS 标签选择器
 	<a href="http:\\www.sina.com" target="_blank">跳转新浪</a>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- id选择器 #ID名称 ，不能以数字开头 -->
+	<title>id选择器</title>
+	<style type="text/css">
+		#hehe {
+			color:red;
+		}
+		*{
+			font-size: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div id="hehe">
+		什么情况
+	</div>
+	<div id="heha">
+		什么情况
+	</div>
+	<div class="text">
+		这个情况
+	</div>
+</body>
+</html>
