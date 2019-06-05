@@ -32,14 +32,15 @@
 </body>
 </html>
 
-
+CSS 标签选择器
 <!DOCTYPE html>
 <html>
 <head>
 	<title>css</title>
 	<style type="text/css">
-	/*标签选择器 div p ul ol h */
+	/*标签选择器 div p ul ol h 与body当中标签相对应*/
 	/*css定义大小要加上px*/
+	/*css放在head里面*/
 		p {
 			color: pink;
 		}
