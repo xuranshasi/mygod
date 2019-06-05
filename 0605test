@@ -611,3 +611,35 @@ CSS 标签选择器
 	</span>
 </body>
 </html>
+
+课堂练习
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div.div1 ul.box li,div.div1 p{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+    <!-- 第一层 div.div1  -->
+	<div class="div1">
+	    <!-- ul(子)和div.div1(父)是父子 .box是class-->
+		<ul class="box">
+			<!-- 后代选择器 li(子) ul（父） -->
+			<li>
+				孙子
+			</li>
+			<!-- 并集选择器 div.div1同级li -->
+			<div class="div1">
+				<!-- p（子）和div.div1（父）是父子 -->
+				<p>
+					哥们
+				</p>
+			</div>
+		</ul>
+	</div>
+</body>
+</html>
