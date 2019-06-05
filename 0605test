@@ -76,3 +76,51 @@ CSS 标签选择器
 
 </body>
 </html>
+
+
+一对多标签选择器 对应多个标签
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- 一对多 一个标签选择器可以对应多个标签 -->
+	<title>忆江南</title>
+	<style type="text/css">
+		div {
+			color: red;
+			/*text-align: right;*/
+		}
+		span {
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<!-- &nbsp; 空格 -->
+	<div>
+		唐&nbsp;白居易
+	</div>
+	<span>
+		fdsajfiodsajfiodsajifodsapofsda
+	</span>
+
+	<div>
+		作者介绍
+	</div>
+	<span>
+		hfdusiajfjosdajfiodsjaifodsjaiofjdsioafj
+	</span>
+	<div>
+		注释
+	</div>
+	<span>
+		jfiodsajfiodsjafiodsjaifods
+	</span>
+	<div>
+		品评
+	</div>
+	<span>
+		fjdisojiojfidosajfioasjio
+	</span>
+</body>
+</html>
