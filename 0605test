@@ -643,3 +643,73 @@ CSS 标签选择器
 	</div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>盒模型</title>
+	<style type="text/css">
+		/*高度没有百分比的概念，只有宽度可以设置百分比*/
+		/*padding字体与边框的距离 顺序上、右、下、左*/
+	/*	padding:10px 5px;
+		上内边距和下内边距是 10px
+		右内边距和左内边距是 5px
+		padding:10px;
+		四个内边距全都是10px；*/
+
+		/*margin:10px 5px 15px 20px; 边框的边距
+		是根据顺时针进行赋值
+		上外边距是 10px，右外边距是 5px
+		下外边距是 15px，左外边距是 20px
+		margin:10px 5px;
+		上外边距和下外边距是 10px
+		右外边距和左外边距是 5px
+		margin:10px;
+		四个外边距全都是10px*/
+		/*padding-bottom指定特定方向*/
+		.box{
+			width: 50px;
+			height: 50px;
+			background: red;
+			padding: 60px 60px 120px 240px;
+			margin: 20px;
+		}
+		.box1{
+			width: 50px;
+			height: 50px;
+			background: pink;
+			padding-bottom: 20px;
+		}
+		.box3{
+			border-style: dashed;
+		}
+	</style>
+</head>
+<body>		
+
+	<table class="box3">
+		<tr>
+			<td>
+				<div class="box">
+					<!-- 宽度width 高度 height -->
+					fdsa
+				</div>
+			</td>
+		</tr>
+	</table>
+
+
+	<table border="2" bordercolor="blue">
+		<tr>
+			<td>
+				<div class="box1">
+					<!-- 宽度width 高度 height -->
+					fdsa
+				</div>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
