@@ -97,3 +97,35 @@
 	</div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 课堂练习 -->
+	<title></title>
+	<style type="text/css">
+		.prev,.next{
+			padding:5px 5px;
+		}
+		a {
+			border:1px solid red;
+			padding:5px 5px;
+		}
+		.backgr {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="backgr">
+		<a href="#" class="prev">上一页</a>
+		<a href="#">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		<a href="#" class="next">下一页</a>
+	</div>
+</body>
+</html>
