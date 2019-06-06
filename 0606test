@@ -129,3 +129,40 @@
 	</div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- 浮动float 可以使用多个块标签显示在一行 -->
+	<style type="text/css">
+		.div1 {
+			float: right;
+			background: red;
+		}
+		.div2{
+			float: right;
+			background: green;
+		}
+		div {
+			clear: right;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="div1">
+		我来了
+	</div>
+	<div class="div2">
+		我票了
+	</div>
+	<div class="div3">
+		我是新来的
+	</div>
+	<div>
+		用户名:<input type="text" name="">
+	</div>
+</body>
+</html>
