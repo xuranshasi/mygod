@@ -1,1 +1,99 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 块元素 典型div标签，默认占一行不管有没有宽度 文字 -->
+	<!-- display:inline转换行元素 -->
+	<title>块元素</title>
+	<style type="text/css">
+		.table {
+			border: 2px;
+			border-color: red;
+			border-style: solid;
+			/*display: inline;*/
+			height: 100px;
+		}
+/*		.div1 {
+			display: inline;
+		}*/
+		.div2{
+			/*display: inline;*/
+		}
+	</style>
+</head>
+<body>
+	<table class="table">
+		<tr>
+			<td>
+				<div class="div1">
+					我是第一行
+				</div>
+				<div>
+					我也是第一行
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div class="div2">
+		我是来抢第一行的
+	</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>行内元素</title>
+	<!-- 默认是没有宽度,内容撑开宽度 -->
+	<!-- 只支持部分CSS样式,不支持 高度及宽度的设置 -->
+	<!-- display:block转行块元素 -->
+	<style type="text/css">
+		.line{
+			width: 100px;
+			background: pink;
+			height: 100px;
+			/*display: block;*/
+		}
+	</style>
+</head>
+<body>
+	<a class="line">djisaodjisoa</a>
+	<a href="">我是第二行</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<!-- display:inline-block行元素内文字拥有块属性 -->
+	<style type="text/css">
+		.inline-block {
+			display: inline-block;
+			border-style: solid;
+			border-color: red;
+		}
+		.line	{
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+	<table class="inline-block">
+		<tr>
+			<td>
+				我是块属性
+				<div>
+					我是块属性2
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div class="line">
+		我是行内元素
+	</div>
+</body>
+</html>
