@@ -1,0 +1,140 @@
+1、前端
+   html 标记性语言静态页面
+   css	样式美化
+   js	让网页动起来
+   后端
+   		java 
+   		web服务器
+   		数据库服务器
+
+ 2、访问网站的过程（面试）
+ 	a、打开浏览器输入域名
+ 	b、DNS解析域名转换成IP
+ 	C、请求达到web服务器，把所需的内容从数据库服务器中取出
+ 	d、数据库服务器把所需的内容发回web服务器，web服务器整合返回页面
+
+ 3、URL（统一资源定位器）（面试）
+ 	a、协议  http
+ 	b、域名  
+ 	c、端口
+ 	d、虚拟目录
+ 	e、访问的文件
+ 	f、访问文件的参数 
+
+ 4、协议
+ 	http 超文本传输协议
+ 	特点：无状态（彼此不记录过去的行为）
+ 	作用：规定了数据在网络传输中先传输什么后传输什么
+ 	超文本（富文本）：文字、声音、图片、视频
+ 	普通文本
+
+ 5、HTTP协议有几种请求方式（面试）
+ 	get：快、携带敏感信息、安全性较差
+ 	post：安全性较高，敏感信息显示在请求体中，相对安全
+
+ 6、cookie&session（面试）
+ 	cookie  存放在客户端，记录用户的访问记录 用处：广告推荐
+ 	session  存放在服务器端，用户验证，有效时长30分钟
+
+ 7、响应状态码（面试）
+ 	2开头 请求成功
+ 	3开头 缓存或重定向
+ 	4开头 客户端问题
+ 	5开头 服务端有问题
+
+ 8、域名（完全合格域名FQDN）
+ 	www.test.com
+ 	xuran.zhenshuai.org
+ 	xiongge.zhengpiao.tv
+ 	正向、反向解析 nslookup 
+
+ 9、端口
+ 	区分应用层进程
+
+ 	OSI/7层模型（笔试）
+ 	物联网传话表应用
+ 	物理层
+ 	数据链路层
+ 	网络层
+ 	传输层
+ 	应用层
+ 	会话层
+ 	表示层
+
+    查看端口的命令
+    netstat -an
+
+ 10、抓包（面试）
+ 	a、抓包的作用
+ 		分析和定位问题
+ 	b、抓包工具
+ 		F12
+ 		fiddler
+ 		httpwatch
+ 		wireshark
+ 	c、抓包原理
+ 		浏览器 ===== 抓包工具=====服务器
+ 	d、抓包信息
+ 		基础信息
+ 		请求头
+ 		请求体
+ 		响应头
+ 		相应体
+ 		network
+
+ 11、列表
+ 	无序列表 ul li
+ 	有序列表 ol li type=数字1 字母a 罗马数字I
+ 	自定义列表 dl dd dt
+
+ 12、表格
+ 	table 
+ 	border边框大小 
+ 	border-color边框颜色 
+ 	tr 行 
+ 	td 单元格 
+ 	thead tbody tfoot 头 身 脚
+ 	cellspacing 单元格间距
+ 	cellpadding 字体与单元格间距
+ 	text-align 文字位置
+ 	caption 表格标题
+ 	th 表头加粗居中
+
+ 13、form 表单
+ 	select 控件 下拉框
+ 	input 输入框
+ 	action 前端数据提交到服务端 
+ 	method get post 表单的提交方式
+
+ 14、css
+ 	几种选择器：标签、类、ID、复合、后代、并集
+ 	标签选择器：div
+ 	类选择器：class .类名
+ 	ID选择器：#ID名字 （同一个html页面名字唯一，不能以数字开头）
+ 	复合选择器：两个条件同时满足
+ 	后代选择器：父亲和儿子 ，从外层往里面找，指定标签生效
+ 	并集选择器：不同的标签，用一个同一个样式，同时生效
+
+ 15、盒子模型
+ 	padding ：字体和边框边距
+ 	margin：盒子与盒子之间的边距
+ 	border：盒子边框的粗细
+
+ 16、块元素与行元素
+ 	块元素：默认独占一行、支持所有的css样式、没有宽度默认占一行
+ 	行元素：支持部分css命令、不支持宽度高度、同种标签可以多个在一行、内容撑起宽度
+ 	块元素变成行元素：display:inline
+ 	行元素变成块元素：display:block
+ 	行元素块属性：display:inline-block
+
+ 17、浮动
+ 	float：left right none
+ 	clear：left right both none
+
+ 18、a标签中href
+
+ 19、span合并一行，行元素
+
+ 20、块元素 div
+
+ 21、img h1到h6 p br hr strong 
